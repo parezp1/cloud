@@ -1,0 +1,33 @@
+enum34>=1.0.4;python_version=='2.7' or python_version=='2.6' or python_version=='3.3' # BSD
+
+
+  File "C:\Python27\lib\site-packages\setuptools\command\easy_install.py", line 1603, in get_script_header
+    if not isascii(hdr):
+  File "C:\Python27\lib\site-packages\setuptools\command\easy_install.py", line 86, in isascii
+    unicode(s, 'ascii')
+TypeError: decoding Unicode is not supported
+
+
+pip install -U setuptools
+pip install taskflow==2.16.0
+
+
+
+https://github.com/cloudbase/compute-hyperv.git
+
+git clone https://github.com/cloudbase/compute-hyperv.git C:\install\git\nova.hyperv2\ -b stable/queens
+
+oslo_service.service assert_eventlet_uses_monotonic_clock()
+
+
+https://github.com/openstack/os-win.git
+
+
+git clone https://github.com/openstack/os-win.git C:\install\git\os-win\ -b stable/queens
+
+2018-07-18 08:19:13.418 7628 ERROR nova.compute.manager ResourceProviderCreationFailed: Failed to create resource provider cl024
+
+pip install --upgrade os-win
+
+
+neutron-ovs agent

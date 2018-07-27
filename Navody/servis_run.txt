@@ -1,0 +1,12 @@
+"C:\Program Files\Cloudbase Solutions\OpenStack\Nova\bin\OpenStackServiceNova.exe" nova-compute "C:\Program Files\Cloudbase Solutions\OpenStack\Nova\Python27\Scripts\nova-compute.exe" --config-file "C:\Program Files\Cloudbase Solutions\OpenStack\Nova\etc\nova.conf"
+
+PS C:\Python27\Scripts> C:\Python27\python.exe C:\Python27\Scripts\nova-compute-script.py --config-file c:\etc\nova\nova.conf
+
+ & 'C:\Program Files\Cloudbase Solutions\OpenStack\Nova\Python27\python.exe' C:\Program Files\Cloudbase Solutions\OpenStack\Nova\Python27\Scripts\nova-compute-script.py --config-file c:\etc\nova\nova.conf
+
+& 'C:\Program Files\Cloudbase Solutions\OpenStack\Nova\Python27\python.exe' 'C:\Program Files\Cloudbase Solutions\OpenStack\Nova\Python27\Scripts\nova-compute-script.py' --config-file C:\etc\nova\nova.conf
+
+"C:\Program Files\Cloudbase Solutions\OpenStack\Nova\bin\OpenStackServiceNova.exe" nova-compute "C:\Program Files\Cloudbase Solutions\OpenStack\Nova\Python27\Scripts\nova-compute.exe" --config-file "C:\Program Files\Cloudbase Solutions\OpenStack\Nova\etc\nova.conf"
+
+
+"C:\Program Files\Cloudbase Solutions\OpenStack\Nova\Python27\python.exe" "C:\Program Files\Cloudbase Solutions\OpenStack\Nova\Python27\Scripts\nova-compute-script.py" --config-file  "C:\Program Files\Cloudbase Solutions\OpenStack\Nova\etc\nova.conf"
